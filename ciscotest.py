@@ -30,7 +30,7 @@ st.set_page_config(page_title="Your Cisco Q3 Earnings Statement Copilot", layout
 st.title("Your Cisco Earnings Copilot")
 
 # Load the API Key securely
-import os
+
 OPENAI_API_KEY = st.secrets["OPENAI_API_KEY"]
 
 # Set up Chat Memory
